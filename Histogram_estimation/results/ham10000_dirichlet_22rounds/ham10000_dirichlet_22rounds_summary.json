@@ -1,0 +1,350 @@
+[
+  {
+    "label_alpha": 0.1,
+    "seed": 42,
+    "clients_csv": "/Users/paolocacace/Repos/MICCAI_paper/MICCAI_balanced_FL/Histogram_estimation/results/ham10000_dirichlet_22rounds/clients_label_alpha_0.1.csv",
+    "stacked_counts_plot": "/Users/paolocacace/Repos/MICCAI_paper/MICCAI_balanced_FL/Histogram_estimation/results/ham10000_dirichlet_22rounds/clients_label_alpha_0.1_stacked_counts.png",
+    "stacked_proportions_plot": "/Users/paolocacace/Repos/MICCAI_paper/MICCAI_balanced_FL/Histogram_estimation/results/ham10000_dirichlet_22rounds/clients_label_alpha_0.1_stacked_proportions.png",
+    "test_ratio": 0.1,
+    "real_histogram": {
+      "akiec": 327,
+      "bcc": 514,
+      "bkl": 1099,
+      "df": 115,
+      "mel": 1113,
+      "nv": 6705,
+      "vasc": 142
+    },
+    "train_histogram": {
+      "akiec": 294,
+      "bcc": 463,
+      "bkl": 989,
+      "df": 103,
+      "mel": 1002,
+      "nv": 6034,
+      "vasc": 128
+    },
+    "test_histogram": {
+      "akiec": 33,
+      "bcc": 51,
+      "bkl": 110,
+      "df": 12,
+      "mel": 111,
+      "nv": 671,
+      "vasc": 14
+    },
+    "client_size_stats": {
+      "min": 50,
+      "max": 368,
+      "mean": 90.13
+    },
+    "true_histogram": {
+      "akiec": 294,
+      "bcc": 463,
+      "bkl": 989,
+      "df": 103,
+      "mel": 1002,
+      "nv": 6034,
+      "vasc": 128
+    },
+    "coverage_first_trial": [
+      10,
+      20,
+      28,
+      36,
+      40,
+      48,
+      55,
+      63,
+      68,
+      71,
+      73,
+      76,
+      80,
+      83,
+      84,
+      86,
+      88,
+      90,
+      92,
+      93,
+      93,
+      94
+    ],
+    "picked_ids_file_trial_1": "/Users/paolocacace/Repos/MICCAI_paper/MICCAI_balanced_FL/Histogram_estimation/results/ham10000_dirichlet_22rounds/picked_ids_used_for_estimate_alpha_0.1_seed_42.json",
+    "picked_ids_total_rounds": 1000,
+    "picked_ids_first_rounds_match_estimate": true,
+    "picked_ids_source_file": "results/ham10000_dirichlet_22rounds_orig/picked_ids_1000_rounds_seed42.json",
+    "metrics": {
+      "kl_divergence": {
+        "mean": 0.02565129624885056,
+        "ci_lower": 0.0017705623036107752,
+        "ci_upper": 0.049532030194090346,
+        "std": 0.06287885006220899,
+        "n_valid": 30
+      },
+      "tv_distance": {
+        "mean": 0.03542848210184842,
+        "ci_lower": 0.03321981335047752,
+        "ci_upper": 0.03763715085321932,
+        "std": 0.00581550598792297,
+        "n_valid": 30
+      },
+      "l1_error": {
+        "mean": 4328.766666666666,
+        "ci_lower": 4312.749122722531,
+        "ci_upper": 4344.784210610802,
+        "std": 42.174781827796366,
+        "n_valid": 30
+      },
+      "mean_relative_error": {
+        "mean": 0.44616261025181075,
+        "ci_lower": 0.4398083980016071,
+        "ci_upper": 0.4525168225020144,
+        "std": 0.016730874363417622,
+        "n_valid": 30
+      }
+    },
+    "sample_estimate_trial_1": {
+      "akiec": 174,
+      "bcc": 282,
+      "bkl": 496,
+      "df": 86,
+      "mel": 532,
+      "nv": 3025,
+      "vasc": 33
+    }
+  },
+  {
+    "label_alpha": 0.5,
+    "seed": 42,
+    "clients_csv": "/Users/paolocacace/Repos/MICCAI_paper/MICCAI_balanced_FL/Histogram_estimation/results/ham10000_dirichlet_22rounds/clients_label_alpha_0.5.csv",
+    "stacked_counts_plot": "/Users/paolocacace/Repos/MICCAI_paper/MICCAI_balanced_FL/Histogram_estimation/results/ham10000_dirichlet_22rounds/clients_label_alpha_0.5_stacked_counts.png",
+    "stacked_proportions_plot": "/Users/paolocacace/Repos/MICCAI_paper/MICCAI_balanced_FL/Histogram_estimation/results/ham10000_dirichlet_22rounds/clients_label_alpha_0.5_stacked_proportions.png",
+    "test_ratio": 0.1,
+    "real_histogram": {
+      "akiec": 327,
+      "bcc": 514,
+      "bkl": 1099,
+      "df": 115,
+      "mel": 1113,
+      "nv": 6705,
+      "vasc": 142
+    },
+    "train_histogram": {
+      "akiec": 294,
+      "bcc": 463,
+      "bkl": 989,
+      "df": 103,
+      "mel": 1002,
+      "nv": 6034,
+      "vasc": 128
+    },
+    "test_histogram": {
+      "akiec": 33,
+      "bcc": 51,
+      "bkl": 110,
+      "df": 12,
+      "mel": 111,
+      "nv": 671,
+      "vasc": 14
+    },
+    "client_size_stats": {
+      "min": 50,
+      "max": 368,
+      "mean": 90.13
+    },
+    "true_histogram": {
+      "akiec": 294,
+      "bcc": 463,
+      "bkl": 989,
+      "df": 103,
+      "mel": 1002,
+      "nv": 6034,
+      "vasc": 128
+    },
+    "coverage_first_trial": [
+      10,
+      20,
+      28,
+      36,
+      40,
+      48,
+      55,
+      63,
+      68,
+      71,
+      73,
+      76,
+      80,
+      83,
+      84,
+      86,
+      88,
+      90,
+      92,
+      93,
+      93,
+      94
+    ],
+    "picked_ids_file_trial_1": "/Users/paolocacace/Repos/MICCAI_paper/MICCAI_balanced_FL/Histogram_estimation/results/ham10000_dirichlet_22rounds/picked_ids_used_for_estimate_alpha_0.5_seed_42.json",
+    "picked_ids_total_rounds": 1000,
+    "picked_ids_first_rounds_match_estimate": true,
+    "picked_ids_source_file": "results/ham10000_dirichlet_22rounds_orig/picked_ids_1000_rounds_seed42.json",
+    "metrics": {
+      "kl_divergence": {
+        "mean": 0.004740944118141303,
+        "ci_lower": 0.0032251885118619065,
+        "ci_upper": 0.006256699724420699,
+        "std": 0.003991040213284276,
+        "n_valid": 30
+      },
+      "tv_distance": {
+        "mean": 0.02341895567744928,
+        "ci_lower": 0.021529670264958653,
+        "ci_upper": 0.025308241089939905,
+        "std": 0.004974557919749227,
+        "n_valid": 30
+      },
+      "l1_error": {
+        "mean": 4324.4,
+        "ci_lower": 4308.150033835146,
+        "ci_upper": 4340.649966164853,
+        "std": 42.786758076146256,
+        "n_valid": 30
+      },
+      "mean_relative_error": {
+        "mean": 0.4644749359385874,
+        "ci_lower": 0.455263792253039,
+        "ci_upper": 0.47368607962413584,
+        "std": 0.024253279821012916,
+        "n_valid": 30
+      }
+    },
+    "sample_estimate_trial_1": {
+      "akiec": 177,
+      "bcc": 311,
+      "bkl": 481,
+      "df": 55,
+      "mel": 426,
+      "nv": 3115,
+      "vasc": 63
+    }
+  },
+  {
+    "label_alpha": 1.0,
+    "seed": 42,
+    "clients_csv": "/Users/paolocacace/Repos/MICCAI_paper/MICCAI_balanced_FL/Histogram_estimation/results/ham10000_dirichlet_22rounds/clients_label_alpha_1.0.csv",
+    "stacked_counts_plot": "/Users/paolocacace/Repos/MICCAI_paper/MICCAI_balanced_FL/Histogram_estimation/results/ham10000_dirichlet_22rounds/clients_label_alpha_1.0_stacked_counts.png",
+    "stacked_proportions_plot": "/Users/paolocacace/Repos/MICCAI_paper/MICCAI_balanced_FL/Histogram_estimation/results/ham10000_dirichlet_22rounds/clients_label_alpha_1.0_stacked_proportions.png",
+    "test_ratio": 0.1,
+    "real_histogram": {
+      "akiec": 327,
+      "bcc": 514,
+      "bkl": 1099,
+      "df": 115,
+      "mel": 1113,
+      "nv": 6705,
+      "vasc": 142
+    },
+    "train_histogram": {
+      "akiec": 294,
+      "bcc": 463,
+      "bkl": 989,
+      "df": 103,
+      "mel": 1002,
+      "nv": 6034,
+      "vasc": 128
+    },
+    "test_histogram": {
+      "akiec": 33,
+      "bcc": 51,
+      "bkl": 110,
+      "df": 12,
+      "mel": 111,
+      "nv": 671,
+      "vasc": 14
+    },
+    "client_size_stats": {
+      "min": 50,
+      "max": 368,
+      "mean": 90.13
+    },
+    "true_histogram": {
+      "akiec": 294,
+      "bcc": 463,
+      "bkl": 989,
+      "df": 103,
+      "mel": 1002,
+      "nv": 6034,
+      "vasc": 128
+    },
+    "coverage_first_trial": [
+      10,
+      20,
+      28,
+      36,
+      40,
+      48,
+      55,
+      63,
+      68,
+      71,
+      73,
+      76,
+      80,
+      83,
+      84,
+      86,
+      88,
+      90,
+      92,
+      93,
+      93,
+      94
+    ],
+    "picked_ids_file_trial_1": "/Users/paolocacace/Repos/MICCAI_paper/MICCAI_balanced_FL/Histogram_estimation/results/ham10000_dirichlet_22rounds/picked_ids_used_for_estimate_alpha_1.0_seed_42.json",
+    "picked_ids_total_rounds": 1000,
+    "picked_ids_first_rounds_match_estimate": true,
+    "picked_ids_source_file": "results/ham10000_dirichlet_22rounds_orig/picked_ids_1000_rounds_seed42.json",
+    "metrics": {
+      "kl_divergence": {
+        "mean": 0.005533288720956703,
+        "ci_lower": 0.003637504149779101,
+        "ci_upper": 0.007429073292134305,
+        "std": 0.004991670443407247,
+        "n_valid": 30
+      },
+      "tv_distance": {
+        "mean": 0.019788031232712885,
+        "ci_lower": 0.017800181224782295,
+        "ci_upper": 0.021775881240643474,
+        "std": 0.005234082121657059,
+        "n_valid": 30
+      },
+      "l1_error": {
+        "mean": 4323.866666666667,
+        "ci_lower": 4307.611336135699,
+        "ci_upper": 4340.121997197634,
+        "std": 42.80088264925801,
+        "n_valid": 30
+      },
+      "mean_relative_error": {
+        "mean": 0.5015407829226546,
+        "ci_lower": 0.4910770943838418,
+        "ci_upper": 0.5120044714614674,
+        "std": 0.027551276448972626,
+        "n_valid": 30
+      }
+    },
+    "sample_estimate_trial_1": {
+      "akiec": 136,
+      "bcc": 294,
+      "bkl": 509,
+      "df": 24,
+      "mel": 527,
+      "nv": 3071,
+      "vasc": 67
+    }
+  }
+]
