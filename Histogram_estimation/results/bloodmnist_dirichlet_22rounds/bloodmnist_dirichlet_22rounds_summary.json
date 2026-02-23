@@ -1,0 +1,482 @@
+[
+  {
+    "label_alpha": 0.1,
+    "seed": 42,
+    "labels": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "label_names": {
+      "0": "basophil",
+      "1": "eosinophil",
+      "2": "erythroblast",
+      "3": "immature_granulocytes",
+      "4": "lymphocyte",
+      "5": "monocyte",
+      "6": "neutrophil",
+      "7": "platelet"
+    },
+    "clients_csv": "/Users/paolocacace/Repos/label_estimation_orig/results/bloodmnist_dirichlet_22rounds/clients_label_alpha_0.1.csv",
+    "stacked_counts_plot": "/Users/paolocacace/Repos/label_estimation_orig/results/bloodmnist_dirichlet_22rounds/clients_label_alpha_0.1_stacked_counts.png",
+    "stacked_proportions_plot": "/Users/paolocacace/Repos/label_estimation_orig/results/bloodmnist_dirichlet_22rounds/clients_label_alpha_0.1_stacked_proportions.png",
+    "train_histogram": {
+      "0": 852,
+      "1": 2181,
+      "2": 1085,
+      "3": 2026,
+      "4": 849,
+      "5": 993,
+      "6": 2330,
+      "7": 1643
+    },
+    "val_histogram": {
+      "0": 122,
+      "1": 312,
+      "2": 155,
+      "3": 290,
+      "4": 122,
+      "5": 143,
+      "6": 333,
+      "7": 235
+    },
+    "train_val_histogram": {
+      "0": 974,
+      "1": 2493,
+      "2": 1240,
+      "3": 2316,
+      "4": 971,
+      "5": 1136,
+      "6": 2663,
+      "7": 1878
+    },
+    "test_histogram": {
+      "0": 244,
+      "1": 624,
+      "2": 311,
+      "3": 579,
+      "4": 243,
+      "5": 284,
+      "6": 666,
+      "7": 470
+    },
+    "total_histogram": {
+      "0": 1218,
+      "1": 3117,
+      "2": 1551,
+      "3": 2895,
+      "4": 1214,
+      "5": 1420,
+      "6": 3329,
+      "7": 2348
+    },
+    "client_size_stats": {
+      "min": 70,
+      "max": 601,
+      "mean": 136.71
+    },
+    "true_histogram": {
+      "0": 974,
+      "1": 2493,
+      "2": 1240,
+      "3": 2316,
+      "4": 971,
+      "5": 1136,
+      "6": 2663,
+      "7": 1878
+    },
+    "coverage_first_trial": [
+      10,
+      20,
+      28,
+      36,
+      40,
+      48,
+      55,
+      63,
+      68,
+      71,
+      73,
+      76,
+      80,
+      83,
+      84,
+      86,
+      88,
+      90,
+      92,
+      93,
+      93,
+      94
+    ],
+    "picked_ids_file_trial_1": "/Users/paolocacace/Repos/label_estimation_orig/results/bloodmnist_dirichlet_22rounds/picked_ids_used_for_estimate_alpha_0.1_seed_42.json",
+    "picked_ids_total_rounds": 1000,
+    "picked_ids_first_rounds_match_estimate": true,
+    "picked_ids_source_file": "/Users/paolocacace/Repos/label_estimation_orig/results/bloodmnist_dirichlet_22rounds/picked_ids_1000_rounds_seed42.json",
+    "metrics": {
+      "kl_divergence": {
+        "mean": 0.03495240371608746,
+        "ci_lower": 0.032992873672579484,
+        "ci_upper": 0.036911933759595436,
+        "std": 0.005159514614612264,
+        "n_valid": 30
+      },
+      "tv_distance": {
+        "mean": 0.08316026015219308,
+        "ci_lower": 0.08091585753616153,
+        "ci_upper": 0.08540466276822463,
+        "std": 0.0059095945667452425,
+        "n_valid": 30
+      },
+      "l1_error": {
+        "mean": 7106.966666666666,
+        "ci_lower": 7080.4704349423255,
+        "ci_upper": 7133.462898391007,
+        "std": 69.76555183055763,
+        "n_valid": 30
+      },
+      "mean_relative_error": {
+        "mean": 0.5454048975056622,
+        "ci_lower": 0.5426810091472972,
+        "ci_upper": 0.5481287858640272,
+        "std": 0.007172098146755978,
+        "n_valid": 30
+      }
+    },
+    "sample_estimate_trial_1": {
+      "0": 476,
+      "1": 1442,
+      "2": 536,
+      "3": 1067,
+      "4": 302,
+      "5": 214,
+      "6": 1260,
+      "7": 1200
+    }
+  },
+  {
+    "label_alpha": 0.5,
+    "seed": 42,
+    "labels": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "label_names": {
+      "0": "basophil",
+      "1": "eosinophil",
+      "2": "erythroblast",
+      "3": "immature_granulocytes",
+      "4": "lymphocyte",
+      "5": "monocyte",
+      "6": "neutrophil",
+      "7": "platelet"
+    },
+    "clients_csv": "/Users/paolocacace/Repos/label_estimation_orig/results/bloodmnist_dirichlet_22rounds/clients_label_alpha_0.5.csv",
+    "stacked_counts_plot": "/Users/paolocacace/Repos/label_estimation_orig/results/bloodmnist_dirichlet_22rounds/clients_label_alpha_0.5_stacked_counts.png",
+    "stacked_proportions_plot": "/Users/paolocacace/Repos/label_estimation_orig/results/bloodmnist_dirichlet_22rounds/clients_label_alpha_0.5_stacked_proportions.png",
+    "train_histogram": {
+      "0": 852,
+      "1": 2181,
+      "2": 1085,
+      "3": 2026,
+      "4": 849,
+      "5": 993,
+      "6": 2330,
+      "7": 1643
+    },
+    "val_histogram": {
+      "0": 122,
+      "1": 312,
+      "2": 155,
+      "3": 290,
+      "4": 122,
+      "5": 143,
+      "6": 333,
+      "7": 235
+    },
+    "train_val_histogram": {
+      "0": 974,
+      "1": 2493,
+      "2": 1240,
+      "3": 2316,
+      "4": 971,
+      "5": 1136,
+      "6": 2663,
+      "7": 1878
+    },
+    "test_histogram": {
+      "0": 244,
+      "1": 624,
+      "2": 311,
+      "3": 579,
+      "4": 243,
+      "5": 284,
+      "6": 666,
+      "7": 470
+    },
+    "total_histogram": {
+      "0": 1218,
+      "1": 3117,
+      "2": 1551,
+      "3": 2895,
+      "4": 1214,
+      "5": 1420,
+      "6": 3329,
+      "7": 2348
+    },
+    "client_size_stats": {
+      "min": 70,
+      "max": 601,
+      "mean": 136.71
+    },
+    "true_histogram": {
+      "0": 974,
+      "1": 2493,
+      "2": 1240,
+      "3": 2316,
+      "4": 971,
+      "5": 1136,
+      "6": 2663,
+      "7": 1878
+    },
+    "coverage_first_trial": [
+      10,
+      20,
+      28,
+      36,
+      40,
+      48,
+      55,
+      63,
+      68,
+      71,
+      73,
+      76,
+      80,
+      83,
+      84,
+      86,
+      88,
+      90,
+      92,
+      93,
+      93,
+      94
+    ],
+    "picked_ids_file_trial_1": "/Users/paolocacace/Repos/label_estimation_orig/results/bloodmnist_dirichlet_22rounds/picked_ids_used_for_estimate_alpha_0.5_seed_42.json",
+    "picked_ids_total_rounds": 1000,
+    "picked_ids_first_rounds_match_estimate": true,
+    "picked_ids_source_file": "/Users/paolocacace/Repos/label_estimation_orig/results/bloodmnist_dirichlet_22rounds/picked_ids_1000_rounds_seed42.json",
+    "metrics": {
+      "kl_divergence": {
+        "mean": 0.005490187685555171,
+        "ci_lower": 0.004960456474391997,
+        "ci_upper": 0.006019918896718345,
+        "std": 0.0013948017458919487,
+        "n_valid": 30
+      },
+      "tv_distance": {
+        "mean": 0.04246378817319256,
+        "ci_lower": 0.04032401528479845,
+        "ci_upper": 0.044603561061586666,
+        "std": 0.0056341006488761025,
+        "n_valid": 30
+      },
+      "l1_error": {
+        "mean": 7106.966666666666,
+        "ci_lower": 7080.4704349423255,
+        "ci_upper": 7133.462898391007,
+        "std": 69.76555183055763,
+        "n_valid": 30
+      },
+      "mean_relative_error": {
+        "mean": 0.5088884614286201,
+        "ci_lower": 0.506270428447833,
+        "ci_upper": 0.5115064944094072,
+        "std": 0.006893377047552907,
+        "n_valid": 30
+      }
+    },
+    "sample_estimate_trial_1": {
+      "0": 514,
+      "1": 1184,
+      "2": 569,
+      "3": 1201,
+      "4": 570,
+      "5": 496,
+      "6": 1178,
+      "7": 785
+    }
+  },
+  {
+    "label_alpha": 1.0,
+    "seed": 42,
+    "labels": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "label_names": {
+      "0": "basophil",
+      "1": "eosinophil",
+      "2": "erythroblast",
+      "3": "immature_granulocytes",
+      "4": "lymphocyte",
+      "5": "monocyte",
+      "6": "neutrophil",
+      "7": "platelet"
+    },
+    "clients_csv": "/Users/paolocacace/Repos/label_estimation_orig/results/bloodmnist_dirichlet_22rounds/clients_label_alpha_1.0.csv",
+    "stacked_counts_plot": "/Users/paolocacace/Repos/label_estimation_orig/results/bloodmnist_dirichlet_22rounds/clients_label_alpha_1.0_stacked_counts.png",
+    "stacked_proportions_plot": "/Users/paolocacace/Repos/label_estimation_orig/results/bloodmnist_dirichlet_22rounds/clients_label_alpha_1.0_stacked_proportions.png",
+    "train_histogram": {
+      "0": 852,
+      "1": 2181,
+      "2": 1085,
+      "3": 2026,
+      "4": 849,
+      "5": 993,
+      "6": 2330,
+      "7": 1643
+    },
+    "val_histogram": {
+      "0": 122,
+      "1": 312,
+      "2": 155,
+      "3": 290,
+      "4": 122,
+      "5": 143,
+      "6": 333,
+      "7": 235
+    },
+    "train_val_histogram": {
+      "0": 974,
+      "1": 2493,
+      "2": 1240,
+      "3": 2316,
+      "4": 971,
+      "5": 1136,
+      "6": 2663,
+      "7": 1878
+    },
+    "test_histogram": {
+      "0": 244,
+      "1": 624,
+      "2": 311,
+      "3": 579,
+      "4": 243,
+      "5": 284,
+      "6": 666,
+      "7": 470
+    },
+    "total_histogram": {
+      "0": 1218,
+      "1": 3117,
+      "2": 1551,
+      "3": 2895,
+      "4": 1214,
+      "5": 1420,
+      "6": 3329,
+      "7": 2348
+    },
+    "client_size_stats": {
+      "min": 70,
+      "max": 601,
+      "mean": 136.71
+    },
+    "true_histogram": {
+      "0": 974,
+      "1": 2493,
+      "2": 1240,
+      "3": 2316,
+      "4": 971,
+      "5": 1136,
+      "6": 2663,
+      "7": 1878
+    },
+    "coverage_first_trial": [
+      10,
+      20,
+      28,
+      36,
+      40,
+      48,
+      55,
+      63,
+      68,
+      71,
+      73,
+      76,
+      80,
+      83,
+      84,
+      86,
+      88,
+      90,
+      92,
+      93,
+      93,
+      94
+    ],
+    "picked_ids_file_trial_1": "/Users/paolocacace/Repos/label_estimation_orig/results/bloodmnist_dirichlet_22rounds/picked_ids_used_for_estimate_alpha_1.0_seed_42.json",
+    "picked_ids_total_rounds": 1000,
+    "picked_ids_first_rounds_match_estimate": true,
+    "picked_ids_source_file": "/Users/paolocacace/Repos/label_estimation_orig/results/bloodmnist_dirichlet_22rounds/picked_ids_1000_rounds_seed42.json",
+    "metrics": {
+      "kl_divergence": {
+        "mean": 0.0045454656508757945,
+        "ci_lower": 0.004106999498061015,
+        "ci_upper": 0.004983931803690574,
+        "std": 0.0011544974933942417,
+        "n_valid": 30
+      },
+      "tv_distance": {
+        "mean": 0.03992006790636103,
+        "ci_lower": 0.03792631326925946,
+        "ci_upper": 0.041913822543462605,
+        "std": 0.005249629227251324,
+        "n_valid": 30
+      },
+      "l1_error": {
+        "mean": 7106.966666666666,
+        "ci_lower": 7080.4704349423255,
+        "ci_upper": 7133.462898391007,
+        "std": 69.76555183055763,
+        "n_valid": 30
+      },
+      "mean_relative_error": {
+        "mean": 0.5147749865163369,
+        "ci_lower": 0.5122204974676606,
+        "ci_upper": 0.5173294755650132,
+        "std": 0.006726063539152193,
+        "n_valid": 30
+      }
+    },
+    "sample_estimate_trial_1": {
+      "0": 434,
+      "1": 1113,
+      "2": 661,
+      "3": 999,
+      "4": 457,
+      "5": 533,
+      "6": 1261,
+      "7": 1039
+    }
+  }
+]

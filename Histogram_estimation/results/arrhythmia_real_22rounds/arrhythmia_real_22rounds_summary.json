@@ -1,0 +1,214 @@
+{
+  "dataset": "arrhythmia_real_patients",
+  "seed": 10,
+  "test_ratio": 0.1,
+  "n_clients": 48,
+  "labels": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4"
+  ],
+  "real_histogram": {
+    "0": 90472,
+    "1": 2775,
+    "2": 7229,
+    "3": 802,
+    "4": 8027
+  },
+  "test_histogram": {
+    "0": 9052,
+    "1": 274,
+    "2": 723,
+    "3": 80,
+    "4": 802
+  },
+  "true_histogram": {
+    "0": 81420,
+    "1": 2501,
+    "2": 6506,
+    "3": 722,
+    "4": 7225
+  },
+  "clients_per_round": 16,
+  "gamma": 0.3333333333333333,
+  "n_rounds": 6,
+  "sampling_with_replacement": true,
+  "count_client_once": true,
+  "clipping_threshold": 1200,
+  "clipping_method": "uniform_with_replacement",
+  "epsilon": 4,
+  "failure_rate": 0.0,
+  "n_trials": 30,
+  "client_size_stats": {
+    "min": 1363,
+    "max": 3023,
+    "mean": 2049.4583333333335,
+    "std": 402.47396180443224
+  },
+  "coverage_first_trial": [
+    16,
+    27,
+    34,
+    38,
+    44,
+    45
+  ],
+  "within_round_unique_first_trial": true,
+  "picked_ids_file_trial_1": "/Users/paolocacace/Repos/label_estimation_orig/results/arrhythmia_real_22rounds/picked_ids_used_for_estimate_seed10.json",
+  "picked_ids_trial_1": [
+    [
+      32,
+      6,
+      43,
+      46,
+      34,
+      45,
+      29,
+      31,
+      7,
+      40,
+      21,
+      9,
+      18,
+      5,
+      20,
+      25
+    ],
+    [
+      38,
+      44,
+      30,
+      9,
+      21,
+      32,
+      28,
+      27,
+      29,
+      5,
+      11,
+      14,
+      37,
+      15,
+      35,
+      47
+    ],
+    [
+      12,
+      10,
+      11,
+      19,
+      22,
+      27,
+      1,
+      18,
+      31,
+      8,
+      21,
+      4,
+      45,
+      20,
+      6,
+      43
+    ],
+    [
+      41,
+      32,
+      35,
+      21,
+      18,
+      4,
+      13,
+      23,
+      44,
+      33,
+      46,
+      37,
+      27,
+      43,
+      9,
+      45
+    ],
+    [
+      28,
+      26,
+      34,
+      23,
+      6,
+      2,
+      15,
+      16,
+      3,
+      17,
+      29,
+      47,
+      24,
+      33,
+      5,
+      9
+    ],
+    [
+      1,
+      6,
+      29,
+      33,
+      36,
+      3,
+      31,
+      40,
+      15,
+      2,
+      18,
+      19,
+      27,
+      17,
+      34,
+      12
+    ]
+  ],
+  "metrics": {
+    "kl_divergence": {
+      "mean": 0.0574704833023357,
+      "ci_lower": 0.014326480591008418,
+      "ci_upper": 0.10061448601366299,
+      "std": 0.11359974462216414,
+      "n_valid": 30
+    },
+    "tv_distance": {
+      "mean": 0.021389914153992617,
+      "ci_lower": 0.018327739407172878,
+      "ci_upper": 0.024452088900812356,
+      "std": 0.008062818639120676,
+      "n_valid": 30
+    },
+    "l1_error": {
+      "mean": 44460.5,
+      "ci_lower": 44154.634890564004,
+      "ci_upper": 44766.365109435996,
+      "std": 805.3540732704674,
+      "n_valid": 30
+    },
+    "mean_relative_error": {
+      "mean": 0.47557332046619305,
+      "ci_lower": 0.44349086616487365,
+      "ci_upper": 0.5076557747675124,
+      "std": 0.08447428116180031,
+      "n_valid": 30
+    }
+  },
+  "sample_estimate_trial_1": {
+    "0": 44391,
+    "1": 817,
+    "2": 2797,
+    "3": 210,
+    "4": 4600
+  },
+  "outputs": {
+    "clients_csv": "/Users/paolocacace/Repos/label_estimation_orig/results/arrhythmia_real_22rounds/arrhythmia_clients_real.csv",
+    "size_histogram_png": "/Users/paolocacace/Repos/label_estimation_orig/results/arrhythmia_real_22rounds/arrhythmia_clients_samples_hist.png",
+    "stacked_counts_png": "/Users/paolocacace/Repos/label_estimation_orig/results/arrhythmia_real_22rounds/arrhythmia_clients_stacked_counts.png",
+    "stacked_proportions_png": "/Users/paolocacace/Repos/label_estimation_orig/results/arrhythmia_real_22rounds/arrhythmia_clients_stacked_proportions.png",
+    "results_json": "/Users/paolocacace/Repos/label_estimation_orig/results/arrhythmia_real_22rounds/arrhythmia_real_22rounds_results.json"
+  }
+}
