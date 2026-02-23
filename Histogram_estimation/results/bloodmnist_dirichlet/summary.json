@@ -1,0 +1,323 @@
+[
+  {
+    "dataset": "bloodmnist_D0.1",
+    "seed": 42,
+    "n_clients": 100,
+    "labels": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "true_histogram": {
+      "0": 974,
+      "1": 2493,
+      "2": 1240,
+      "3": 2316,
+      "4": 971,
+      "5": 1136,
+      "6": 2663,
+      "7": 1878
+    },
+    "clients_per_round": 10,
+    "gamma": 0.1,
+    "alpha": 0.9,
+    "target_cohort": 90,
+    "trigger_round_R_star": 21,
+    "n_rounds": 22,
+    "clipping_threshold": 70,
+    "clipping_method": "uniform_with_replacement",
+    "epsilon": 1,
+    "failure_rate": 0.0,
+    "n_trials": 30,
+    "client_size_stats": {
+      "min": 70,
+      "max": 601,
+      "mean": 136.71
+    },
+    "coverage_first_trial": [
+      10,
+      20,
+      28,
+      36,
+      40,
+      48,
+      55,
+      63,
+      68,
+      71,
+      73,
+      76,
+      80,
+      83,
+      84,
+      86,
+      88,
+      90,
+      92,
+      93,
+      93,
+      94
+    ],
+    "metrics": {
+      "kl_divergence": {
+        "mean": 0.051993325547653756,
+        "ci_lower": 0.04290423348241702,
+        "ci_upper": 0.06108241761289049,
+        "std": 0.023931913419501696,
+        "n_valid": 30
+      },
+      "tv_distance": {
+        "mean": 0.1013127809543596,
+        "ci_lower": 0.09513838543276282,
+        "ci_upper": 0.10748717647595638,
+        "std": 0.016257410308976157,
+        "n_valid": 30
+      },
+      "l1_error": {
+        "mean": 7083.0,
+        "ci_lower": 6965.8391628793315,
+        "ci_upper": 7200.1608371206685,
+        "std": 308.4887896396453,
+        "n_valid": 30
+      },
+      "mean_relative_error": {
+        "mean": 0.5450008795996446,
+        "ci_lower": 0.5354351743752497,
+        "ci_upper": 0.5545665848240395,
+        "std": 0.02518685338244854,
+        "n_valid": 30
+      }
+    },
+    "sample_estimate_trial_1": {
+      "0": 515,
+      "1": 1385,
+      "2": 587,
+      "3": 1034,
+      "4": 345,
+      "5": 79,
+      "6": 1252,
+      "7": 1265
+    },
+    "picked_ids_source": "/Users/rtaiello/projects/MICCAI_balanced_FL/Histogram_estimation/results/bloodmnist_dirichlet/picked_ids_1000_rounds_seed42.json",
+    "label_alpha": 0.1
+  },
+  {
+    "dataset": "bloodmnist_D0.5",
+    "seed": 42,
+    "n_clients": 100,
+    "labels": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "true_histogram": {
+      "0": 974,
+      "1": 2493,
+      "2": 1240,
+      "3": 2316,
+      "4": 971,
+      "5": 1136,
+      "6": 2663,
+      "7": 1878
+    },
+    "clients_per_round": 10,
+    "gamma": 0.1,
+    "alpha": 0.9,
+    "target_cohort": 90,
+    "trigger_round_R_star": 21,
+    "n_rounds": 22,
+    "clipping_threshold": 70,
+    "clipping_method": "uniform_with_replacement",
+    "epsilon": 1,
+    "failure_rate": 0.0,
+    "n_trials": 30,
+    "client_size_stats": {
+      "min": 70,
+      "max": 601,
+      "mean": 136.71
+    },
+    "coverage_first_trial": [
+      10,
+      20,
+      28,
+      36,
+      40,
+      48,
+      55,
+      63,
+      68,
+      71,
+      73,
+      76,
+      80,
+      83,
+      84,
+      86,
+      88,
+      90,
+      92,
+      93,
+      93,
+      94
+    ],
+    "metrics": {
+      "kl_divergence": {
+        "mean": 0.011262546841034617,
+        "ci_lower": 0.008800533312175039,
+        "ci_upper": 0.013724560369894195,
+        "std": 0.006482572097125597,
+        "n_valid": 30
+      },
+      "tv_distance": {
+        "mean": 0.05704943826238286,
+        "ci_lower": 0.05128220954784076,
+        "ci_upper": 0.06281666697692496,
+        "std": 0.01518532514317653,
+        "n_valid": 30
+      },
+      "l1_error": {
+        "mean": 7083.0,
+        "ci_lower": 6965.8391628793315,
+        "ci_upper": 7200.1608371206685,
+        "std": 308.4887896396453,
+        "n_valid": 30
+      },
+      "mean_relative_error": {
+        "mean": 0.5087403925660147,
+        "ci_lower": 0.4988689331131924,
+        "ci_upper": 0.518611852018837,
+        "std": 0.02599191550194852,
+        "n_valid": 30
+      }
+    },
+    "sample_estimate_trial_1": {
+      "0": 533,
+      "1": 1137,
+      "2": 642,
+      "3": 1179,
+      "4": 604,
+      "5": 369,
+      "6": 1150,
+      "7": 848
+    },
+    "picked_ids_source": "/Users/rtaiello/projects/MICCAI_balanced_FL/Histogram_estimation/results/bloodmnist_dirichlet/picked_ids_1000_rounds_seed42.json",
+    "label_alpha": 0.5
+  },
+  {
+    "dataset": "bloodmnist_D1.0",
+    "seed": 42,
+    "n_clients": 100,
+    "labels": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "true_histogram": {
+      "0": 974,
+      "1": 2493,
+      "2": 1240,
+      "3": 2316,
+      "4": 971,
+      "5": 1136,
+      "6": 2663,
+      "7": 1878
+    },
+    "clients_per_round": 10,
+    "gamma": 0.1,
+    "alpha": 0.9,
+    "target_cohort": 90,
+    "trigger_round_R_star": 21,
+    "n_rounds": 22,
+    "clipping_threshold": 70,
+    "clipping_method": "uniform_with_replacement",
+    "epsilon": 1,
+    "failure_rate": 0.0,
+    "n_trials": 30,
+    "client_size_stats": {
+      "min": 70,
+      "max": 601,
+      "mean": 136.71
+    },
+    "coverage_first_trial": [
+      10,
+      20,
+      28,
+      36,
+      40,
+      48,
+      55,
+      63,
+      68,
+      71,
+      73,
+      76,
+      80,
+      83,
+      84,
+      86,
+      88,
+      90,
+      92,
+      93,
+      93,
+      94
+    ],
+    "metrics": {
+      "kl_divergence": {
+        "mean": 0.01252789141056149,
+        "ci_lower": 0.009011079556207585,
+        "ci_upper": 0.016044703264915396,
+        "std": 0.009259894850551587,
+        "n_valid": 30
+      },
+      "tv_distance": {
+        "mean": 0.0581506008845846,
+        "ci_lower": 0.05041306108516365,
+        "ci_upper": 0.06588814068400554,
+        "std": 0.020373226635906856,
+        "n_valid": 30
+      },
+      "l1_error": {
+        "mean": 7083.0,
+        "ci_lower": 6965.8391628793315,
+        "ci_upper": 7200.1608371206685,
+        "std": 308.4887896396453,
+        "n_valid": 30
+      },
+      "mean_relative_error": {
+        "mean": 0.5142025250553844,
+        "ci_lower": 0.5045203382841191,
+        "ci_upper": 0.5238847118266498,
+        "std": 0.025493553575896204,
+        "n_valid": 30
+      }
+    },
+    "sample_estimate_trial_1": {
+      "0": 488,
+      "1": 1045,
+      "2": 736,
+      "3": 998,
+      "4": 480,
+      "5": 367,
+      "6": 1224,
+      "7": 1124
+    },
+    "picked_ids_source": "/Users/rtaiello/projects/MICCAI_balanced_FL/Histogram_estimation/results/bloodmnist_dirichlet/picked_ids_1000_rounds_seed42.json",
+    "label_alpha": 1.0
+  }
+]
