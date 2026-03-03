@@ -2,5 +2,7 @@
 /Histogram_estimation/results_old/
 /HAM10000/data/
 /HAM10000/sample_distribution/
+/bloodmnist/dataset/
+/bloodmnist/client_selection/
 __pycache__/
 *.pyc

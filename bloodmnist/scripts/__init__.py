@@ -1,0 +1,1 @@
+"""Standalone BloodMNIST scripts package."""
