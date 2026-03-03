@@ -1,0 +1,6 @@
+/Histogram_estimation/results/
+/Histogram_estimation/results_old/
+/HAM10000/data/
+/HAM10000/sample_distribution/
+__pycache__/
+*.pyc

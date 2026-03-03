@@ -300,7 +300,7 @@ def run_simulation(
     output_dir: Path,
     base_path: Path,
     failure_rate: float = 0.0,
-    picked_ids_total_rounds: int = 1000,
+    picked_ids_total_rounds: int = 2000,
 ) -> dict:
     """
     Run the full estimation pipeline for one scenario and return a summary dict.
