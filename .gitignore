@@ -4,5 +4,9 @@
 /HAM10000/sample_distribution/
 /bloodmnist/dataset/
 /bloodmnist/client_selection/
+/organmnist_3d/data/
+/organmnist_3d/sample_distribution/
+/organmnist_3d/results/
+
 __pycache__/
 *.pyc
