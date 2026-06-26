@@ -34,6 +34,5 @@ without a trusted aggregator.
 - `HAM10000/`, `bloodmnist/`, `organmnist_3d/` — federated trainers (FedSwitch + FedAvg, FedProx,
   FedIIC, FedLC baselines) on the three medical-imaging benchmarks.
 
-The estimation step writes the histogram estimate to a JSON file that the trainers' FedSwitch
-aggregator consumes. See each subdirectory's README for run instructions.
+The estimation step writes the histogram estimate to a JSON file that the trainers' use to fix client selection, class distribution and histogram estimation. See each subdirectory's README for run instructions.
 </content>
